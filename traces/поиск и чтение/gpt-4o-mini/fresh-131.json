@@ -1,0 +1,73 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "When did Asha Sharma announce the major reset of the Xbox division at Microsoft?",
+  "answer": "June 2026",
+  "evidence": "Following Asha Sharma's announcement of a major reset of the Xbox division at Microsoft in June 2026, including pulling back towards console exclusivity and improving the financial performance for both Xbox and Xbox Game Studios, Microsoft announced it was laying off 1,600 Xbox employees now and another 1,600 over the next year. ",
+  "url": "https://en.wikipedia.org/wiki/2026_in_video_games"
+ },
+ "answer": "Asha Sharma announced the major reset of the Xbox division at Microsoft on July 6, 2026. \n\nFINAL: 6 July 2026",
+ "correct": false,
+ "cost": 0.0003702000000000427,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When did Asha Sharma announce the major reset of the Xbox division at Microsoft?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8Vqgq589uC9qpyobuj1zDuPi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Asha Sharma Xbox division reset announcement 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8Vqgq589uC9qpyobuj1zDuPi",
+   "content": "[Xbox (division)] <p class=\"mw-empty-elt\"> </p> <p><b>Xbox</b> (formerly <b>Microsoft Gaming</b>) is the video game and digital entertainment division of Microsoft, an American multinational technology company based in Redmond, Washington. Established in 2022, it produces the namesake video game consoles and services, in addition to overseeing production and sales. Asha Sharma has served as the division's CEO since February 2026. </p><p>Its game development and publishing operations include Xbox Game Studios, Activision, Bethesda Softworks, Blizzard Entertainment, King, and Mojang Studios. Activision and Blizzard Entertainment are publishing labels of Activision Blizzard, while Bethesda Softworks is the publishing label of ZeniMax Media. </p><p>Prior to 2022, Microsoft had several different video game-related product lines, including Xbox hardware, Xbox operations, and game development studios. Microsoft Gaming was created with the announcement of Microsoft's plans to acquire Activision Blizzard to unify all of Microsoft's gaming groups within a single division. </p><p>With the completion of the Activision Blizzard acquisition in 2023, Microsoft became one of the largest gaming companies, the third-by revenue. The company employs approximately 14,000 people worldwide, making it one of the largest employers in the video game industry. The company has 100 million daily active players across all gaming platforms. </p><p>The division owns intellectual property for some of the most popular, best-selling, and highest-grossing media franchises of all time, including <i>Call of Duty</i>, <i>Candy Crush</i>, <i>Warcraft</i>, <i>Halo</i>, <i>Minecraft</i>, and <i>The Elder Scrolls</i>. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Pre–Microsoft_Gaming_(2001–2021)\" data-mw-fallback-anchor=\"Pre.E2.80.93Microsoft_Gaming_.282001.E2.80.932021.29\" data-mw-wikitext=\"\">Pre–Microsoft Gaming (2001–2021)</h3> <p>Up through 2000, Microsoft had onl"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HIiazP0yVREXwBzPdVjQNRjk",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"Xbox (division)\",\"keywords\":\"Asha Sharma reset announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HIiazP0yVREXwBzPdVjQNRjk",
+   "content": "Xbox (formerly Microsoft Gaming) is the video game and digital entertainment division of Microsoft, an American multinational technology company based in Redmond, Washington. Established in 2022, it produces the namesake video game consoles and services, in addition to overseeing production and sales. Asha Sharma has served as the division's CEO since February 2026.\nSpencer announced his retirement from Microsoft on February 20, 2026, with Asha Sharma, a senior AI executive for Microsoft, named as his successor of CEO for Microsoft Gaming. Booty was promoted to Executive Vice President and Chief Content Officer of the division. Sarah Bond, who has served as President of Xbox and played a key role in platform strategy, partnerships, and hardware transitions, w\nSharma and Booty released an internal memo in June 2026, \"Next 100 Days: Xbox Reset\", outlining plans to improve profitability through annual first-party exclusives, lower hardware costs, streamlined operations, and modernization of the platform, while reaffirming Xbox's commitment to console hardware alongside PC, mobile, and cloud gaming. Sharma said in the memo that they had invested $20 billio\nSharma notified the division and its subsidiaries of major changes to its structure and staffing on July 6, 2026, as part of this reset. Sharma said the restructuring would reset Xbox's content portfolio and operating model, simplify reporting lines, and reduce management layers, which had been as deep as 14 layers, to no more than five, or three where possible. Sharma said these changes were to p\nA total 3,200 employees would be laid off from within the Xbox division; 1,600 at the time of the July announcement, and another 1,600 over the next twelve months. Initial layoffs included roughly half of id Software, about 25% of Obsidian's staff, and cuts at ZeniMax (particularly Bethesda Game Studios) and Activision. Mojang Studios and King would now report directly to Sharma. Within Xbox Game \nThe Information reported on"
+  },
+  {
+   "role": "assistant",
+   "content": "Asha Sharma announced the major reset of the Xbox division at Microsoft on July 6, 2026. \n\nFINAL: 6 July 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

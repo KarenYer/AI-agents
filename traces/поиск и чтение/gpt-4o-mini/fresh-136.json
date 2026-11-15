@@ -1,0 +1,51 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?",
+  "answer": "$100,000.",
+  "evidence": "Beginning in January 2026, starting with UFC 324, the UFC increased its post‑fight bonus structure, raising Performance of the Night and Fight of the Night awards from $50,000 to $100,000, and introducing additional $25,000 bonuses for any knockout or submission not selected among the standard four post‑fight awards.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_UFC?ysclid=mwff1wivyt646964231"
+ },
+ "answer": "As of January 2026, the Performance of the Night and Fight of the Night awards were increased from $50,000 to $100,000 each. Additionally, there was an introduction of $25,000 bonuses for any knockout or submission not selected among the standard four post-fight awards.\n\nFINAL: 100,000",
+ "correct": true,
+ "cost": 0.00020805000000001517,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bxSqITyMgn41in6eKksv6QfF",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 UFC bonus update Performance of the Night Fight of the Night awards\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bxSqITyMgn41in6eKksv6QfF",
+   "content": "[List of UFC bonus award recipients] <p> <b>UFC Bonus Awards</b> are three separate cash bonuses usually awarded to four fighters after each UFC event, based on internal decisions by UFC management. More/fewer bonuses have been awarded at some events, especially when no knockouts or submissions occurred. </p> <ul><li><b>Fight of the Night</b>: Awarded to the two fighters who delivered the most impressive fight on the card.</li> <li><b>Knockout of the Night</b>: Awarded to the fighter with the most impressive knockout/technical knockout.</li> <li><b>Submission of the Night</b>: Awarded to the fighter with the most impressive submission.</li> <li><b>Performance of the Night</b>: On February 11, 2014, the UFC announced a modification to its live event bonuses. Since UFC Fight Night 36, UFC has awarded Fight of the Night Bonuses to each of the fighters in the best fight of the night, as well as additional Performance of the Night Bonuses. The Performance of the Night bonuses are awarded to the athletes who put on the best and most exciting individual performances. The Submission of the Night and the Knockout of the Night bonuses have been discontinued and the bonus amounts remained $50,000 until January 2026.</li></ul> <ul><li><b>Post-Fight bonus increase</b>: Beginning in January 2026, starting with UFC 324, the UFC increased its post‑fight bonus structure, raising Performance of the Night and Fight of the Night awards from $50,000 to $100,000, and introducing additional $25,000 bonuses for any knockout or submission not selected among the standard four post‑fight awards.</li></ul> <h2 data-mw-anchor=\"Fighters_with_the_most_awards\" data-mw-wikitext=\"\">Fighters with the most awards</h2> <h3 data-mw-anchor=\"Male_award_recipients_(with_eight_or_more_awards)\" data-mw-fallback-anchor=\"Male_award_recipients_.28with_eight_or_more_awards.29\" data-mw-wikitext=\"\">Male award recipients (with eight or more awards)</h3> <h3 data-mw-anchor=\"Female_award_recipients_(with_three_or_mor"
+  },
+  {
+   "role": "assistant",
+   "content": "As of January 2026, the Performance of the Night and Fight of the Night awards were increased from $50,000 to $100,000 each. Additionally, there was an introduction of $25,000 bonuses for any knockout or submission not selected among the standard four post-fight awards.\n\nFINAL: 100,000",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

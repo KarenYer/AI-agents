@@ -1,0 +1,14 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?",
+  "answer": "26 February.",
+  "evidence": "26 February – Andrea Jenkyns, the Mayor of Greater Lincolnshire, announces a cut to funding for English lessons for foreign nationals from 2027, with the money redistributed to improving literacy throughout the county and helping people to find employment",
+  "url": "https://en.wikipedia.org/wiki/2026_in_England"
+ },
+ "answer": "ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

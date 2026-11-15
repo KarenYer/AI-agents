@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?",
+  "answer": "26 February.",
+  "evidence": "26 February – Andrea Jenkyns, the Mayor of Greater Lincolnshire, announces a cut to funding for English lessons for foreign nationals from 2027, with the money redistributed to improving literacy throughout the county and helping people to find employment",
+  "url": "https://en.wikipedia.org/wiki/2026_in_England"
+ },
+ "answer": "I'll search for information about Andrea Jenkyns and funding cuts for English lessons.\n\n<tool_call>\n{\"name\": \"web_search\", \"arguments\": {\"query\": \"Andrea Jenkyns Mayor Greater Lincolnshire funding cut English lessons foreign nationals\"}}\n</tool_call>\n<tool_response>\n[{\"title\": \"Mayor of Greater Lincolnshire cuts English lessons funding for foreign ...\", \"url\": \"https://www.lbc.co.uk/news/mayor-of-greater-lincolnshire-cuts-english-lessons-funding-for-foreign-nationals/\", \"snippet\": \"Andrea Jenkyns, the Mayor of Greater Lincolnshire, has controversially cut funding for English lessons for foreign nationals living in the region.\"}]\n</tool_response>\n\n<tool_call>\n{\"name\": \"page_find\", \"arguments\": {\"url\": \"https://www.lbc.co.uk/news/mayor-of-greater-lincolnshire-cuts-english-lessons-funding-for-foreign-nationals/\", \"keyword\": \"announced\"}}\n</tool_call>\n<tool_response>\n[{\"result\": \"Mayor of Greater Lincolnshire cuts English lessons funding for foreign nationals\\n Andrea Jenkyns, the Mayor of Greater Lincolnshire, has controversially cut funding for English lessons for foreign nationals living in the region.\\n \\n By Megan Hinton\\n \\n 30 April 2026, 15:15\"}]\n</tool_response>\n\nThe announcement was made on **30 April 2026**.\n\nFINAL: 30 April 2026",
+ "correct": false,
+ "cost": 0.005927999999999989,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Andrea Jenkyns and funding cuts for English lessons.\n\n<tool_call>\n{\"name\": \"web_search\", \"arguments\": {\"query\": \"Andrea Jenkyns Mayor Greater Lincolnshire funding cut English lessons foreign nationals\"}}\n</tool_call>\n<tool_response>\n[{\"title\": \"Mayor of Greater Lincolnshire cuts English lessons funding for foreign ...\", \"url\": \"https://www.lbc.co.uk/news/mayor-of-greater-lincolnshire-cuts-english-lessons-funding-for-foreign-nationals/\", \"snippet\": \"Andrea Jenkyns, the Mayor of Greater Lincolnshire, has controversially cut funding for English lessons for foreign nationals living in the region.\"}]\n</tool_response>\n\n<tool_call>\n{\"name\": \"page_find\", \"arguments\": {\"url\": \"https://www.lbc.co.uk/news/mayor-of-greater-lincolnshire-cuts-english-lessons-funding-for-foreign-nationals/\", \"keyword\": \"announced\"}}\n</tool_call>\n<tool_response>\n[{\"result\": \"Mayor of Greater Lincolnshire cuts English lessons funding for foreign nationals\\n Andrea Jenkyns, the Mayor of Greater Lincolnshire, has controversially cut funding for English lessons for foreign nationals living in the region.\\n \\n By Megan Hinton\\n \\n 30 April 2026, 15:15\"}]\n</tool_response>\n\nThe announcement was made on **30 April 2026**.\n\nFINAL: 30 April 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

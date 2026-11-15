@@ -1,0 +1,190 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Извините, но у меня нет актуальной информации о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года. Пожалуйста, уточните свой запрос. FINAL: <неизвестно>.",
+ "correct": false,
+ "cost": 0.001503899999999947,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_GELnWYw6sRVwA3Wmkx7y0bL1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 diplomatic relations France June\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GELnWYw6sRVwA3Wmkx7y0bL1",
+   "content": "[2026 Poland–Ukraine diplomatic crisis] <p class=\"mw-empty-elt\"> </p> <p>The <b>2026 Poland–Ukraine diplomatic crisis</b> began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. </p><p>On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022. </p> <h2 data-mw-anchor=\"Crisis\" data-mw-wikitext=\"\">Crisis</h2> <h3 data-mw-anchor='\"Heroes_of_the_UPA\"_unit_naming_controversy' data-mw-fallback-anchor=\".22Heroes_of_the_UPA.22_unit_naming_controversy\" data-mw-wikitext=\"\">\"Heroes of the UPA\" unit naming controversy</h3> <p>On 26 May 2026, Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\" stating that it was done in order \"to restore the historical traditions of the national army.\" </p><p>The move was met with negative reactions within Poland, because the UPA committed massacres in Volhynia, Eastern Galicia, the Lublin region, and the Subcarpathian region, killing over 100,000 Poles, Jews, or members of other minorities. Earlier that month, Zelenskyy had also faced similar reactions regarding the reburial with state honours of the remains of U"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JNzG1jl3MTymUu0f997ngX6g",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Poland breaks diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JNzG1jl3MTymUu0f997ngX6g",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ftyHZJ5uBGT8KVGJzedcZHEN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"France diplomatic relations June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ftyHZJ5uBGT8KVGJzedcZHEN",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TmxFm3KzBFkSJ3UAwRoG9QDr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations with France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TmxFm3KzBFkSJ3UAwRoG9QDr",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q2NVvLWPkIsYzzRi7WwXrqvj",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 France breaks diplomatic relations\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q2NVvLWPkIsYzzRi7WwXrqvj",
+   "content": "[2025–2026 China–Japan diplomatic crisis] <p class=\"mw-empty-elt\"> </p> <p>Relations between China and Japan entered a state of crisis in November 2025, after Japanese prime minister Sanae Takaichi said in the Japanese parliament that a Chinese attack on Taiwan could potentially constitute an \"existential crisis for Japan\" under the Legislation for Peace and Security, allowing Japan to take military action in collective self-defence. Following these remarks, the Chinese consul general in Osaka, Xue Jian, made threatening comments against Takaichi on X, triggering a diplomatic row between the countries. </p><p>Both sides protested the other's remarks. In response to questions from Japanese parliamentarians, Takaichi refused to withdraw her remarks, arguing that they were consistent with the Japanese government's existing position on the issue. Japan requested that China take \"appropriate measures\" against Xue. China refused, demanded Takaichi retract her statements, and accused Japan of \"neo-militarism\", issued numerous retaliatory measures against Japan, including issuing a travel advisory, restricting travel and cultural exchanges, and cutting off seafood imports from the country. In 2026, the dispute further escalated with China restricting the export of dual-use items and rare earth materials to Japan. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>From 1895 to 1945, the island of Taiwan along with the Penghu islands was under Japanese colonial rule by the terms of the Treaty of Shimonoseki in the aftermath of the First Sino-Japanese War. Following the surrender of Japan in the conclusion of World War II, Taiwan was handed over to the Republic of China (ROC) in 1945, but the ROC soon lost its mainland territory due to its defeat in the Chinese Civil War and retreated its government to Taiwan in 1949. Japan formally \"renounced all right, title, and claim\" to Taiwan in 1952, without naming the specific receiver of Taiwan's sovereignty, "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jKUNhG9aNP4niso33hyb7Cpk",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jKUNhG9aNP4niso33hyb7Cpk",
+   "content": "[France–Russia relations] <p class=\"mw-empty-elt\"> </p> <p><b>France–Russia relations,</b> also known as <b>Franco-Russian relations</b> or <b>Russo-French relations</b>, are the bilateral relations between the French Republic and the Russian Federation. France has an embassy in Moscow, whereas Russia has an embassy in Paris. Relations have historically been complicated, and have been more tense in recent years. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <p>In the 18th century, Russia imported French intellectuals, most of whom were negative about the little-known land. During the Napoleonic era (1799–1815), both nations wanted to dominate Central and Eastern Europe. Napoleon launched a massive invasion of Russia in 1812, but its failure led to his defeat and Russian dominance in Eastern Europe. Russia also wanted to dominate the Ottoman Empire, but France and Britain fought and won the Crimean War (1854–1856) to prevent that. </p><p>In the 1890s France was diplomatically isolated and built an alliance with Russia. Together with Britain, they went to war with Germany between 1914 and 1918. After gaining control in the Russian Revolution of 1917, the Bolsheviks signed the Treaty of Brest-Litovsk with the Central Powers in 1918. In the 1930s, France could not forge an alliance against a resurgent Nazi Germany. The Soviet Union and the United States were the remaining superpowers after 1945, but they faced off in a long Cold War (1947–1989). France supported the United States in the NATO alliance against Communist expansion. Since 1989 relations have been proper but not warm, with several issues marring relations such as the War in Donbas (which evolved into the 2022 Russian invasion of Ukraine) and Russia's increasing involvement in West Africa. </p><p>Due to the fact that the Russian centralised state, formed in the 15th-16th centuries, was almost constantly in a state of diplomatic and military confrontation with the Polish–Lithuanian Commonw"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Z4FgkJIvhGFfjByZhQV8jqz8",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 France diplomatic relations broken\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Z4FgkJIvhGFfjByZhQV8jqz8",
+   "content": "[Foreign relations of Eritrea] <p class=\"mw-empty-elt\"> </p> <p>The foreign relations of Eritrea are the policies of the Eritrean government by which it administers its external relations with other nations. Since its independence, Eritrea's foreign relations have been dominated by conflict and confrontation, both in the regional and international arenas. It has maintained often troubled, and usually violent, relations with its neighbors, including brief armed conflicts with Yemen and Djibouti and a destructive war with its bigger-neighbour, Ethiopia. At present, Eritrea has very tense relations with neighboring Ethiopia and Djibouti. Relations in the international arena also have been strained since the last decade, particularly with major powers. What appeared cordial relations with the US in the 1990s turned acrimonious following the border war with Ethiopia, 1998-2000. Although the two nations have a close working relationship regarding the ongoing war on terror, there has been a growing tension in other areas. Ties with international organizations such as the United Nations, the African Union, and the European Union have also been complicated in part because of Eritrea's outrage at their reluctance to force Ethiopia to accept a boundary commission ruling issued in 2002. </p> <h2 data-mw-anchor=\"International_organizations\" data-mw-wikitext=\"\">International organizations</h2> <p>Eritrea is a member of the United Nations, the African Union, and is an observing member of the Arab League. </p><p>Eritrea holds a seat on the United Nations' Advisory Committee on Administrative and Budgetary Questions (ACABQ). </p><p>Eritrea also holds memberships in the International Bank for Reconstruction and Development, International Finance Corporation, International Criminal Police Organization (INTERPOL), Non-Aligned Movement, Organisation for the Prohibition of Chemical Weapons, Permanent Court of Arbitration, Port Management Association of Eastern and Southern Africa, and th"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, но у меня нет актуальной информации о том, какая страна разорвала дипломатические отношения с Францией в июне 2026 года. Пожалуйста, уточните свой запрос. FINAL: <неизвестно>.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

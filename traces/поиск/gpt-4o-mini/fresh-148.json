@@ -1,0 +1,95 @@
+{
+ "task": {
+  "id": "fresh-148",
+  "source": "fresh",
+  "question": "How many people were reported missing after the sinking of the IRIS Dena on March 4?, 2026",
+  "answer": "140.",
+  "evidence": "March 4 – Defense Secretary Hegseth announces that a U.S. submarine has sunk an Iranian naval frigate in the Indian Ocean with a single Mark 48 torpedo, the first such sinking of an enemy ship since World War II. The Sri Lankan navy reports the IRIS Dena went down in the Indian Ocean, with 140 people on board missing.[114][115][116] On the same day, the U.S. House Ethics Committee launches a formal investigation into Tony Gonzales.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States"
+ },
+ "answer": "After the sinking of the IRIS Dena on March 4, 2026, 104 crew members were reported killed, while 32 survived. Additionally, the remains of 20 of the deceased were not recovered.\n\nFINAL: 20",
+ "correct": false,
+ "cost": 0.0002958000000000127,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "How many people were reported missing after the sinking of the IRIS Dena on March 4?, 2026"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uvvr06oa6vV8SqF1Pyh7OEwQ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"IRIS Dena sinking March 4 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uvvr06oa6vV8SqF1Pyh7OEwQ",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_v4SUcClX2R48QnxlygZFLdEX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"IRIS Dena sinking March 4 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_v4SUcClX2R48QnxlygZFLdEX",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bGRsdtOarhHd5rZHiVM98XqI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"IRIS Dena sinking March 4 2026 casualties missing people\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bGRsdtOarhHd5rZHiVM98XqI",
+   "content": "[Sinking of IRIS Dena] <p class=\"mw-empty-elt\"> </p><p class=\"mw-empty-elt\"> </p> <p>During the 2026 Iran war, the Iranian Navy frigate IRIS <i>Dena</i> was torpedoed and sunk by the United States Navy's <i>Los Angeles</i>-class submarine USS <i>Charlotte</i> in the Indian Ocean. A week prior to the attack, <i>Dena</i> concluded its participation in the International Fleet Review 2026, a naval exercise hosted by India, and was returning home when it was attacked and sunk in international waters approximately 19 nautical miles (35 km; 22 mi) off the coast of Sri Lanka. On 4 March, <i>Charlotte</i> fired two Mark 48 torpedoes at <i>Dena</i>, which struck the frigate and caused its sinking. According to some reports, the vessel, owing to its participation in the international exercise, was not carrying operational armaments at the time. Also, the vessel's Bell 212 helicopter was not present during the incident. At the time of the attack <i>Dena</i> had a crew of 136 personnel; 104 were reported killed and 32 survived. It was further reported that the remains of 20 of the deceased were not recovered. </p><p>The sinking occurred amid heightened hostilities involving 2026 Iran war. It has been described as the only instance since the Pacific War of World War II in which a United States Navy submarine sank a surface vessel using torpedoes, and the first ever known torpedo kill on an enemy vessel by an American nuclear submarine. More broadly, it was the first sinking of an enemy surface ship by a nuclear-powered submarine since the sinking of ARA <i>General Belgrano</i> by the Royal Navy submarine HMS <i>Conqueror</i> during the Falklands War. </p><p>The attack is the subject of controversy and claims that it constituted a war crime related to whether an unarmed warship is a lawful target, the legality of the war in general, and whether or to what extent the submarine had an obligation to assist or ensure assistance to the shipwrecked crew under the Second Geneva Conventio"
+  },
+  {
+   "role": "assistant",
+   "content": "After the sinking of the IRIS Dena on March 4, 2026, 104 crew members were reported killed, while 32 survived. Additionally, the remains of 20 of the deceased were not recovered.\n\nFINAL: 20",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

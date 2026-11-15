@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?",
+  "answer": "26 February.",
+  "evidence": "26 February – Andrea Jenkyns, the Mayor of Greater Lincolnshire, announces a cut to funding for English lessons for foreign nationals from 2027, with the money redistributed to improving literacy throughout the county and helping people to find employment",
+  "url": "https://en.wikipedia.org/wiki/2026_in_England"
+ },
+ "answer": "I will search for the information regarding Andrea Jenkyns' announcement about the funding cut for English lessons for foreign nationals. Please hold on. \n\nweb_search(\"Andrea Jenkyns funding cut English lessons for foreign nationals announcement 2026\")",
+ "correct": false,
+ "cost": 4.755000000000731e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for the information regarding Andrea Jenkyns' announcement about the funding cut for English lessons for foreign nationals. Please hold on. \n\nweb_search(\"Andrea Jenkyns funding cut English lessons for foreign nationals announcement 2026\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?",
+  "answer": "$100,000.",
+  "evidence": "Beginning in January 2026, starting with UFC 324, the UFC increased its post‑fight bonus structure, raising Performance of the Night and Fight of the Night awards from $50,000 to $100,000, and introducing additional $25,000 bonuses for any knockout or submission not selected among the standard four post‑fight awards.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_UFC?ysclid=mwff1wivyt646964231"
+ },
+ "answer": "Извините, но у меня нет информации о новых суммах для наград \"Performance of the Night\" и \"Fight of the Night\" после обновления UFC в январе 2026 года. \n\nFINAL: Неизвестно.",
+ "correct": false,
+ "cost": 0.001832849999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4Bg4mMO8m2oBBnKKmz1GLxlm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"2026 UFC Performance of the Night Fight of the Night bonus update January\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4Bg4mMO8m2oBBnKKmz1GLxlm",
+   "content": "[UFC Fight Night: Gane vs. Volkov] <p><i><b>UFC Fight Night: Gane vs. Volkov</b></i> (also known as <i><b>UFC Fight Night 190</b></i>, <i><b>UFC on ESPN+ 48</b></i> and <i><b>UFC Vegas 30</b></i>) was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on June 26, 2021 at the UFC Apex facility in Enterprise, Nevada, part of the Las Vegas Metropolitan Area, United States. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>A heavyweight bout between Ciryl Gane and former Bellator Heavyweight World Champion Alexander Volkov served as the event's headliner. </p><p>A middleweight bout between Anthony Hernandez and Punahele Soriano was expected to take place at the event. The pairing was previously scheduled to take place in May 2020 at UFC on ESPN: Overeem vs. Harris, but Soriano pulled out due to undisclosed reasons. In turn, Hernandez pulled out in late May due to a hand injury and was replaced by Brendan Allen, with the new matchup expected to take place a month later at UFC Fight Night: Sandhagen vs. Dillashaw. </p><p>A lightweight bout between Yancy Medeiros and Damir Hadžović has been rescheduled for the second time and took place at the event. The pairing was first scheduled to meet at UFC Fight Night: Font vs. Garbrandt. However, it was pulled from the card just hours before taking place due to health issues with Hadžović. </p><p>A women's bantamweight bout between Julija Stoliarenko and Julia Avila was also rescheduled to take place at this event. The bout was previously scheduled to take place in March at UFC on ESPN: Brunson vs. Holland, but it was cancelled as Stoliarenko was deemed medically unfit to compete due to complications from her weight cut, including collapsing twice off the scales during her attempts. </p><p>Ed Herman was expected to face Danilo Marques in a light heavyweight bout at the event. However, Herman was removed from the card due to undisclosed reasons on June 14 and replaced "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Fv38JLLZwL2guKZPdDZgrOgN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"UFC 2026 Performance of the Night Fight of the Night awards January update\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Fv38JLLZwL2guKZPdDZgrOgN",
+   "content": "[UFC Fight Night: Gane vs. Volkov] <p><i><b>UFC Fight Night: Gane vs. Volkov</b></i> (also known as <i><b>UFC Fight Night 190</b></i>, <i><b>UFC on ESPN+ 48</b></i> and <i><b>UFC Vegas 30</b></i>) was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on June 26, 2021 at the UFC Apex facility in Enterprise, Nevada, part of the Las Vegas Metropolitan Area, United States. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>A heavyweight bout between Ciryl Gane and former Bellator Heavyweight World Champion Alexander Volkov served as the event's headliner. </p><p>A middleweight bout between Anthony Hernandez and Punahele Soriano was expected to take place at the event. The pairing was previously scheduled to take place in May 2020 at UFC on ESPN: Overeem vs. Harris, but Soriano pulled out due to undisclosed reasons. In turn, Hernandez pulled out in late May due to a hand injury and was replaced by Brendan Allen, with the new matchup expected to take place a month later at UFC Fight Night: Sandhagen vs. Dillashaw. </p><p>A lightweight bout between Yancy Medeiros and Damir Hadžović has been rescheduled for the second time and took place at the event. The pairing was first scheduled to meet at UFC Fight Night: Font vs. Garbrandt. However, it was pulled from the card just hours before taking place due to health issues with Hadžović. </p><p>A women's bantamweight bout between Julija Stoliarenko and Julia Avila was also rescheduled to take place at this event. The bout was previously scheduled to take place in March at UFC on ESPN: Brunson vs. Holland, but it was cancelled as Stoliarenko was deemed medically unfit to compete due to complications from her weight cut, including collapsing twice off the scales during her attempts. </p><p>Ed Herman was expected to face Danilo Marques in a light heavyweight bout at the event. However, Herman was removed from the card due to undisclosed reasons on June 14 and replaced "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_8TgryOxxZPkOp5o3vcDO6jKt",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 UFC bonus update Fight of the Night Performance of the Night amounts\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_8TgryOxxZPkOp5o3vcDO6jKt",
+   "content": "[UFC Freedom 250] <p class=\"mw-empty-elt\"> </p> <p><i><b>UFC Freedom 250</b></i> (also known as <i><b>UFC White House</b></i> and <i><b>UFC at the White House</b></i>) was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on June 14, 2026, on the South Lawn of the White House in Washington, D.C., United States. The event's name is a reference to the 250th anniversary of the United States Declaration of Independence on the following July 4, 20 days later. </p><p>There was seating for roughly 4,300 people. No public seating was made available, with seats reserved for financial sponsors, political allies, and active-duty service members. The event marked the only UFC event to end with all fights ending by knockout, and also tied events UFC Fight Night: Rockhold vs. Bisping and UFC on ESPN: Santos vs. Hill for having all fights end by finish at a modern-era UFC event, which had 11 and 10 fights respectively. </p><p>The event was the most-watched exclusive live event on Paramount+ as of June 2026. It had 34 million viewers worldwide and was one of the most watched MMA events of all time. There was controversy surrounding the event's use of the White House to stage cage fighting, with most Americans disapproving of the idea according to a poll by Reuters/Ipsos. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>To commemorate the 250th anniversary of the United States, the UFC planned to hold a mixed martial arts event on the South Lawn of the White House in June 2026. </p><p>The event was first announced by President Donald Trump on July 3, 2025, during a rally at the Iowa State Fairgrounds. On August 29, 2025, UFC CEO Dana White confirmed that plans for the event had been finalized, stating: \"We had the meeting at the White House ... The White House fight is on.\" The announcement followed Trump's remarks at the rally, where he referenced his long-standing friendship with White. Trump had frequently attende"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WljIvpJpMG25ZP7HB2acDtaS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"UFC January 2026 bonus structure updates\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WljIvpJpMG25ZP7HB2acDtaS",
+   "content": "[2026 in UFC] <p class=\"mw-empty-elt\"> </p> <p>The year <b>2026</b> is the 34th year in the history of the Ultimate Fighting Championship (UFC), a mixed martial arts promotion based in the United States. </p> <h2 data-mw-anchor=\"UFC_in_2026\" data-mw-wikitext=\"\">UFC in 2026</h2> <h3 data-mw-anchor=\"Class_action:_anti-trust_lawsuits\" data-mw-wikitext=\"\">Class action: anti-trust lawsuits</h3> <h4 data-mw-anchor=\"Johnson_v._Zuffa\" data-mw-wikitext=\"\">Johnson v. Zuffa</h4> <p>Based on court filings from late July 2025, the Johnson v. Zuffa antitrust lawsuit, originally filed in 2021, is proceeding, and status conference for the case is scheduled for late August 2025. </p> <h4 data-mw-anchor=\"Cirkunovs_v._Zuffa_and_Davis_v._Zuffa\" data-mw-wikitext=\"\">Cirkunovs v. Zuffa and Davis v. Zuffa</h4> <p>In May 2025, two antitrust lawsuits were filed against the UFC. One, led by former fighter Misha Cirkunov, specifically challenges the enforceability of arbitration clauses and class action waivers in UFC contracts. The other lawsuit, filed by former fighter Phil Davis, alleges that the UFC's anticompetitive practices also negatively impacted the ability of non-UFC fighters to secure fair wages. </p> <h3 data-mw-anchor=\"Paramount_and_CBS_partnership\" data-mw-wikitext=\"\">Paramount and CBS partnership</h3> <p>On August 11, 2025, the UFC announced a seven-year media rights agreement with Paramount Skydance Corporation worth $7.7 billion. Paramount+ will exclusively stream all events for seven years, starting in 2026. Some numbered events will also air on CBS. The agreement will allow the UFC to move away from pay-per-view as events will stream on Paramount+ at no additional cost. All 13 of the UFC's flagship events and 30 Fight Nights a year will be streamed on the Paramount+ service. UFC CEO and President Dana White announced the UFC would produce four big events per year on CBS, and that the UFC's planned card for the White House on June 14, 2026, would be one of those events. </p>"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CAgPgWi91kUiAhEonw0NbVGz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 UFC Performance of the Night Fight of the Night bonuses changes\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CAgPgWi91kUiAhEonw0NbVGz",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wVcsNZecEOg4MMTCO5rXG0Mi",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"UFC bonus structure update January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wVcsNZecEOg4MMTCO5rXG0Mi",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wvJu67ks2MPRsO8UQ7ifgA6m",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"UFC January 2026 bonus amounts for Performance of the Night Fight of the Night\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wvJu67ks2MPRsO8UQ7ifgA6m",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Извините, но у меня нет информации о новых суммах для наград \"Performance of the Night\" и \"Fight of the Night\" после обновления UFC в январе 2026 года. \n\nFINAL: Неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

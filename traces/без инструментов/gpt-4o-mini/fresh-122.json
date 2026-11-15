@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-122",
+  "source": "fresh",
+  "question": "Who ousted Sussan Ley in February 2026 in Australian politics?",
+  "answer": "Angus Taylor",
+  "evidence": "February 13 – Sussan Ley, the first female leader of the Liberal Party of Australia, was ousted by Angus Taylor.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Let's find out who ousted Sussan Ley in February 2026 in Australian politics. \n\nweb_search(\"Sussan Ley ousted February 2026 Australian politics\")",
+ "correct": false,
+ "cost": 3.779999999997674e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who ousted Sussan Ley in February 2026 in Australian politics?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let's find out who ousted Sussan Ley in February 2026 in Australian politics. \n\nweb_search(\"Sussan Ley ousted February 2026 Australian politics\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

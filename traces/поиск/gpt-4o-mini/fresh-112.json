@@ -1,0 +1,124 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "К сожалению, у меня нет информации о запуске миссии ESA и CAS 19 мая 2026 года. Я не могу предоставить конкретные детали без доступа к актуальным данным. \n\nFINAL: Нет данных.",
+ "correct": false,
+ "cost": 0.0009068999999999883,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What mission was launched by ESA and CAS on May 19, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1kqbNhKbVyBmwxn9l6WG5xgY",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ESA CAS mission launched May 19 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1kqbNhKbVyBmwxn9l6WG5xgY",
+   "content": "[European Space Agency] <p class=\"mw-empty-elt\"> </p> <p>The <b>European Space Agency</b> (<b>ESA</b>; <span>pronounced</span> <span lang=\"en-Latn-fonipa\">/ˈiːsə/</span> <i title=\"English pronunciation respelling\"><span>EE</span>-sə</i>) is a 23-member international organisation devoted to space exploration. It has its headquarters in Paris and a staff of around 3,000 people globally as of 2025. ESA was founded in 1975 in the context of European integration. Its 2026 annual budget was around €8.3 billion. </p><p>The ESA human spaceflight programme includes participation in the International Space Station (ISS) and collaboration with NASA on the Artemis programme, especially manufacturing of the Orion spacecraft's European Service Module (ESM). ESA launches and operates uncrewed missions to the Moon, Mars, Jupiter, Venus, Mercury, the Sun, and various comets and asteroids. Other activities include space telescopes, Earth observation satellites, asteroid impact avoidance, telecommunication and navigation satellites, designing launch vehicles (<i>e.g.</i> Ariane 6 is operated through Arianespace with ESA sharing in the costs), and maintaining Europe's spaceport (the Guiana Space Centre in Kourou, French Guiana), as well as space safety and commercialisation. </p> <h2 data-mw-anchor=\"Mission\" data-mw-wikitext=\"\">Mission</h2> <p>The treaty establishing the European Space Agency reads: </p> <blockquote class=\"templatequote\"><p>\"The purpose of the Agency shall be to provide for and to promote, for exclusively peaceful purposes, cooperation among European States in space research and technology and their space applications, with a view to their being used for scientific purposes and for operational space applications systems.\"</p></blockquote> <p>ESA is responsible for setting a unified space and related industrial policy, recommending space objectives to the member states, and integrating national programmes like satellite development, into the European programme as much a"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gTgahdxjd0kLKE4F3E4WZz3J",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ESA CAS mission May 19 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gTgahdxjd0kLKE4F3E4WZz3J",
+   "content": "[List of European Space Agency programmes and missions] <p class=\"mw-empty-elt\"> </p> <p>The <b>European Space Agency (ESA)</b> operates a number of space missions, both individually and in collaborations with other space agencies such as U.S. NASA, Japanese JAXA, Chinese CNSA, as well as space agencies of ESA member states (eg. French CNES, Italian ASI, German DLR, Polish POLSA). ESA organizes its missions into various budgetary programmes. This list follows the divisions of the Science Programme, the FutureEO Programme, and the Space Safety Programme. Missions from other programmes, such as Terrae Novae, FLPP, GSTP, or ARTES, are listed in loosely thematic categories. </p><p>The current iteration of ESA's Science Programme is the Cosmic Vision Programme, a series of space science missions chosen by ESA to launch through competitions, similar to NASA's Discovery and New Frontiers programmes. It follows the Horizon 2000 and Horizon 2000+ programmes which launched notable missions such as Huygens (Titan lander), Rosetta (comet orbiter and lander), and Gaia (astrometry telescope). These missions are divided into two categories: \"Sun and Solar System\", space probes studying the Solar System (eg. Solar Orbiter studying the Sun and JUICE currently on its way to Jupiter) and \"Astrophysics\", space telescopes contributing to interstellar astronomy (eg. CHEOPS characterising exoplanets and Euclid focused on dark matter and dark energy). The Cosmic Vision Programme will be followed by Voyage 2050. </p><p>A similarly operated programme focused on Earth observation, known as FutureEO, has launched various \"Earth Explorer\" satellites, which serve many aspects of Geoscience, often related to climate change. These include eg. GOCE and Swarm studying Earth's gravitational and magnetic fields, CryoSat-2 studying Earth's polar ice caps, and EarthCARE characterising clouds and aerosols in the atmosphere. The Earth Explorer missions are complemented by a series of smaller \"Scout\" satel"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_it3qbkZyqJYj7eMpSM9ZhNsX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ESA and CAS mission May 19 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_it3qbkZyqJYj7eMpSM9ZhNsX",
+   "content": "[List of European Space Agency programmes and missions] <p class=\"mw-empty-elt\"> </p> <p>The <b>European Space Agency (ESA)</b> operates a number of space missions, both individually and in collaborations with other space agencies such as U.S. NASA, Japanese JAXA, Chinese CNSA, as well as space agencies of ESA member states (eg. French CNES, Italian ASI, German DLR, Polish POLSA). ESA organizes its missions into various budgetary programmes. This list follows the divisions of the Science Programme, the FutureEO Programme, and the Space Safety Programme. Missions from other programmes, such as Terrae Novae, FLPP, GSTP, or ARTES, are listed in loosely thematic categories. </p><p>The current iteration of ESA's Science Programme is the Cosmic Vision Programme, a series of space science missions chosen by ESA to launch through competitions, similar to NASA's Discovery and New Frontiers programmes. It follows the Horizon 2000 and Horizon 2000+ programmes which launched notable missions such as Huygens (Titan lander), Rosetta (comet orbiter and lander), and Gaia (astrometry telescope). These missions are divided into two categories: \"Sun and Solar System\", space probes studying the Solar System (eg. Solar Orbiter studying the Sun and JUICE currently on its way to Jupiter) and \"Astrophysics\", space telescopes contributing to interstellar astronomy (eg. CHEOPS characterising exoplanets and Euclid focused on dark matter and dark energy). The Cosmic Vision Programme will be followed by Voyage 2050. </p><p>A similarly operated programme focused on Earth observation, known as FutureEO, has launched various \"Earth Explorer\" satellites, which serve many aspects of Geoscience, often related to climate change. These include eg. GOCE and Swarm studying Earth's gravitational and magnetic fields, CryoSat-2 studying Earth's polar ice caps, and EarthCARE characterising clouds and aerosols in the atmosphere. The Earth Explorer missions are complemented by a series of smaller \"Scout\" satel"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_A2Xs6i3DX1uMXIlC0zrBswV7",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ESA CAS mission May 19 2026 details\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_A2Xs6i3DX1uMXIlC0zrBswV7",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, у меня нет информации о запуске миссии ESA и CAS 19 мая 2026 года. Я не могу предоставить конкретные детали без доступа к актуальным данным. \n\nFINAL: Нет данных.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "When will Sony stop producing physical discs for new PlayStation games, according to the July 1, 2026 announcement?",
+  "answer": "January 2028",
+  "evidence": "Sony announced it will cease physical disc production for new PlayStation games in January 2028,[17] and would close the PlayStation 3 and PlayStation Vita digital storefronts by July 2027",
+  "url": "https://en.wikipedia.org/wiki/2026_in_video_games"
+ },
+ "answer": "I need to perform a web search to find the relevant information regarding Sony's announcement on stopping the production of physical discs for new PlayStation games. Please hold on. \n\n[Web search initiated.]",
+ "correct": false,
+ "cost": 4.0949999999984055e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When will Sony stop producing physical discs for new PlayStation games, according to the July 1, 2026 announcement?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to perform a web search to find the relevant information regarding Sony's announcement on stopping the production of physical discs for new PlayStation games. Please hold on. \n\n[Web search initiated.]",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

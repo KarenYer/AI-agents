@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which organization closed the $55 billion buyout of Electronic Arts on August 4, 2026?",
+  "answer": "A group of investors led by the Public Investment Fund.",
+  "evidence": "Electronic Arts closed its $55 billion leveraged buyout by a group of investors led by the Public Investment Fund",
+  "url": "https://en.wikipedia.org/wiki/2026_in_video_games"
+ },
+ "answer": "Let me search for that information. \n\n[web_search]",
+ "correct": false,
+ "cost": 2.4450000000009187e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which organization closed the $55 billion buyout of Electronic Arts on August 4, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for that information. \n\n[web_search]",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

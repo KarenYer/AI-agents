@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-127",
+  "source": "fresh",
+  "question": "Who won in the bikes category at the 2026 Dakar Rally?",
+  "answer": "Luciano Benavides",
+  "evidence": "The event featured as the first round of the 2026 World Rally-Raid Championship. Nasser Al-Attiyah won the rally in the cars class, his sixth victory in the event. Argentinian rider Luciano Benavides took victory in the bikes category.",
+  "url": "https://en.wikipedia.org/wiki/2026_Dakar_Rally"
+ },
+ "answer": "I will search for information on the 2026 Dakar Rally bikes category winner. Please hold on. \n\n[web_search]",
+ "correct": false,
+ "cost": 3.090000000000037e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Who won in the bikes category at the 2026 Dakar Rally?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will search for information on the 2026 Dakar Rally bikes category winner. Please hold on. \n\n[web_search]",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

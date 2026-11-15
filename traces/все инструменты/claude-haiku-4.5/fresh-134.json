@@ -1,0 +1,14 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "By what percentage is the risk of cardiovascular mortality lower for people who regularly climb stairs, according to the August 13 meta‑analysis?",
+  "answer": "39 %",
+  "evidence": "13 August – A meta-analysis of more than 480,000 participants finds that regular stair climbing is associated with a 39% lower risk of cardiovascular mortality and a 24% lower risk of death from any cause",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science?ysclid=mwf2cwe8au36409919"
+ },
+ "answer": "ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

@@ -1,0 +1,117 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "Which organization closed the $55 billion buyout of Electronic Arts on August 4, 2026?",
+  "answer": "A group of investors led by the Public Investment Fund.",
+  "evidence": "Electronic Arts closed its $55 billion leveraged buyout by a group of investors led by the Public Investment Fund",
+  "url": "https://en.wikipedia.org/wiki/2026_in_video_games"
+ },
+ "answer": "The organization that closed the $55 billion buyout of Electronic Arts on August 4, 2026, is a consortium of investors including the Public Investment Fund (PIF) of Saudi Arabia, the private equity firm Silver Lake, and the investment firm Affinity Partners. \n\nFINAL: Public Investment Fund (PIF) of Saudi Arabia",
+ "correct": false,
+ "cost": 0.0004074000000000022,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "Which organization closed the $55 billion buyout of Electronic Arts on August 4, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZmeQbDdn49sUDBedGDd0Ikgu",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"$55 billion buyout of Electronic Arts August 4 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZmeQbDdn49sUDBedGDd0Ikgu",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_C6KKJ85cvZwzoyHbQkzVwvHn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Electronic Arts buyout August 4 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_C6KKJ85cvZwzoyHbQkzVwvHn",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_er77euhuyc2hl8LL5eMVadGH",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"EA buyout August 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_er77euhuyc2hl8LL5eMVadGH",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_udr5ielmLM1P43KscSgJjmHP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Electronic Arts acquisition August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_udr5ielmLM1P43KscSgJjmHP",
+   "content": "[Leveraged buyout of Electronic Arts] <p class=\"mw-empty-elt\"> </p> <p>On September 29, 2025, a consortium of investors comprising the Public Investment Fund (PIF) of Saudi Arabia, the private equity firm Silver Lake, and the investment firm Affinity Partners announced a leveraged buyout of the American video game company Electronic Arts (EA). The deal, valued at <span>US$55 billion</span>, was completed on August 4, 2026, following regulatory approvals. </p><p>The acquisition was part of the PIF's strategy to diversify Saudi Arabia's economy away from oil by expanding investments in the global entertainment and video game industries. PIF gained ownership of several popular franchises under Electronic Arts, including <i>FIFA</i> (later <i>EA Sports FC</i>), <i>Battlefield</i>, <i>The Sims</i>, <i>Madden NFL</i>, and <i>Need for Speed</i>. </p><p>The buyout of Electronic Arts is the largest leveraged buyout in history to date, and the second-largest video game merger and acquisition deal ever completed, behind Microsoft's acquisition of Activision Blizzard in 2023. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <h3 data-mw-anchor=\"Electronic_Arts\" data-mw-wikitext=\"\">Electronic Arts</h3> <p>Electronic Arts is an American video game company founded in 1982 by Trip Hawkins, a former Apple employee. The company initially received financial support from venture capital firms, including Kleiner Perkins and Sequoia Capital. Prior to the announcement of the leveraged buyout, Electronic Arts's financial results were largely dependent on the profits from its most successful franchises, <i>EA Sports FC</i> (1994–present) and <i>Madden NFL</i> (1988–present), and the then-upcoming release of <i>Battlefield 6</i>, which launched in October 2025. In early 2025, the company revised its financial forecast downward due to declining demand for soccer-themed video games. Electronic Arts reported first-quarter financial results that slightly exceeded expectati"
+  },
+  {
+   "role": "assistant",
+   "content": "The organization that closed the $55 billion buyout of Electronic Arts on August 4, 2026, is a consortium of investors including the Public Investment Fund (PIF) of Saudi Arabia, the private equity firm Silver Lake, and the investment firm Affinity Partners. \n\nFINAL: Public Investment Fund (PIF) of Saudi Arabia",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

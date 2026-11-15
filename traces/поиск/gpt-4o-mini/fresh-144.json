@@ -1,0 +1,187 @@
+{
+ "task": {
+  "id": "fresh-144",
+  "source": "fresh",
+  "question": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?",
+  "answer": "26 February.",
+  "evidence": "26 February – Andrea Jenkyns, the Mayor of Greater Lincolnshire, announces a cut to funding for English lessons for foreign nationals from 2027, with the money redistributed to improving literacy throughout the county and helping people to find employment",
+  "url": "https://en.wikipedia.org/wiki/2026_in_England"
+ },
+ "answer": "К сожалению, у меня нет информации о дате объявления Андреа Генкинс о сокращении финансирования на уроки английского языка для иностранцев в 2026 году. Необходимо больше данных. \n\nFINAL: неизвестно.",
+ "correct": false,
+ "cost": 0.002074650000000011,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When did Andrea Jenkyns, Mayor of Greater Lincolnshire, announce the funding cut for English lessons for foreign nationals?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BVUezMLFbfcLTV8ExsVgmCH4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns funding cut English lessons foreign nationals 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BVUezMLFbfcLTV8ExsVgmCH4",
+   "content": "[2026 in England] <p class=\"mw-empty-elt\"> </p> <p>Events of the year <b>2026 in England</b>. </p> <h2 data-mw-anchor=\"Incumbent\" data-mw-wikitext=\"\">Incumbent</h2> <ul><li>Monarch – Charles III</li> <li>Prime Minister – Keir Starmer (until 20 July), Andy Burnham (since 20 July)</li></ul> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>1 January – Convicted murderer Matthew Armstrong and two other prisoners, Daniel Washbourne and Aaron Thomas, abscond from HMP Leyhill in Gloucestershire.</li> <li>2 January – <ul><li>The Brighton Pier Group announces that it is putting the Brighton Palace Pier up for sale.</li> <li>The number of flu cases is reported to have fallen, with the latest figures showing 2,676 people were in hospital with the virus, compared to just over 3,000 during the previous week.</li> <li>HM Coastguard recover the bodies of a man and a woman after the man tried to rescue a mother and her teenage daughter who got into difficulty in the sea at Withernsea, East Yorkshire. A search for the girl is called off the following day. The body of the girl is recovered on 16 January.</li></ul></li> <li>3 January – <ul><li>Damage to a gas pipe causes a gas outage in the Kingsbridge, Malborough and Salcombe areas of Devon.</li> <li>Aaron Thomas, who escaped from HMP Leyhill on New Year's Day, is recaptured in Bristol.</li></ul></li> <li>6 January – <ul><li>Fresh warnings for snow and ice are issued as Storm Goretti approaches England.</li> <li>The annual animal count at London Zoo begins.</li> <li>Jake Fahri, who was convicted of the 2008 murder of Jimmy Mizen, is recommended for open prison by the Parole Board.</li> <li>A mother has been charged with murdering her four-year-old daughter in a house fire in Manchester.</li> <li>Staff at two primary schools in Greater Manchester strike over claims their reports of violence and daily assaults are being ignored by senior leadership.</li></"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_fMNcIi1zIukMqnjGOGFsHge9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns funding cut foreign language classes announcement 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_fMNcIi1zIukMqnjGOGFsHge9",
+   "content": "[Reform UK] <p class=\"mw-empty-elt\"> </p> <p><b>Reform UK</b>, also known as the <b>Reform Party</b> or simply <b>Reform</b>, is a right-wing populist and far-right political party in the United Kingdom. It has eight members of Parliament in the House of Commons, two members of the London Assembly, 33 members of the Senedd, 16 members of the Scottish Parliament, two police and crime commissioners, and controls 26 local councils. It is to the right of the Conservative Party. Nigel Farage has been leader of Reform UK since June 2024. </p><p>The party was co-founded by Farage and Catherine Blaiklock in 2018 as the <b>Brexit Party</b>, advocating a no-deal Brexit; it won the most seats at the 2019 European Parliament election in the UK. The UK withdrew from the European Union in January 2020, and later in the same year the COVID-19 pandemic began in the UK. The Conservative government imposed a series of national lockdowns and Farage focused on anti-lockdown campaigning. The party was renamed Reform UK in January 2021. Farage stepped down as leader in March 2021 and was succeeded by Richard Tice. </p><p>Classified as part of the radical right, since 2022, the party has campaigned on a broader platform, pledging to reduce taxation, limit immigration, oppose net-zero emissions policies and substantially reduce public spending. In March 2024, Lee Anderson, who was elected in 2019 as a Conservative MP, defected to Reform UK, becoming its first MP. In June 2024, Farage resumed the leadership. The party won five seats at the 2024 general election, the first time it had elected MPs. Several incumbent and former Conservative MPs have since defected to it. </p> <h2 data-mw-anchor=\"History\" data-mw-wikitext=\"\">History</h2> <h3 data-mw-anchor=\"Brexit_Party\" data-mw-wikitext=\"\">Brexit Party</h3> <p>The incorporation of the Brexit Party in November 2018 was formally announced on 20 January 2019 by the former UK Independence Party (UKIP) economics spokesperson Catherine Blaiklock, wh"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MWFWuDuqHAnDzMAZ1WVUPc15",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns announces funding cut English lessons foreign nationals date 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MWFWuDuqHAnDzMAZ1WVUPc15",
+   "content": "[2026 in England] <p class=\"mw-empty-elt\"> </p> <p>Events of the year <b>2026 in England</b>. </p> <h2 data-mw-anchor=\"Incumbent\" data-mw-wikitext=\"\">Incumbent</h2> <ul><li>Monarch – Charles III</li> <li>Prime Minister – Keir Starmer (until 20 July), Andy Burnham (since 20 July)</li></ul> <h2 data-mw-anchor=\"Events\" data-mw-wikitext=\"\">Events</h2> <h3 data-mw-anchor=\"January\" data-mw-wikitext=\"\">January</h3> <ul><li>1 January – Convicted murderer Matthew Armstrong and two other prisoners, Daniel Washbourne and Aaron Thomas, abscond from HMP Leyhill in Gloucestershire.</li> <li>2 January – <ul><li>The Brighton Pier Group announces that it is putting the Brighton Palace Pier up for sale.</li> <li>The number of flu cases is reported to have fallen, with the latest figures showing 2,676 people were in hospital with the virus, compared to just over 3,000 during the previous week.</li> <li>HM Coastguard recover the bodies of a man and a woman after the man tried to rescue a mother and her teenage daughter who got into difficulty in the sea at Withernsea, East Yorkshire. A search for the girl is called off the following day. The body of the girl is recovered on 16 January.</li></ul></li> <li>3 January – <ul><li>Damage to a gas pipe causes a gas outage in the Kingsbridge, Malborough and Salcombe areas of Devon.</li> <li>Aaron Thomas, who escaped from HMP Leyhill on New Year's Day, is recaptured in Bristol.</li></ul></li> <li>6 January – <ul><li>Fresh warnings for snow and ice are issued as Storm Goretti approaches England.</li> <li>The annual animal count at London Zoo begins.</li> <li>Jake Fahri, who was convicted of the 2008 murder of Jimmy Mizen, is recommended for open prison by the Parole Board.</li> <li>A mother has been charged with murdering her four-year-old daughter in a house fire in Manchester.</li> <li>Staff at two primary schools in Greater Manchester strike over claims their reports of violence and daily assaults are being ignored by senior leadership.</li></"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q2sz8aTU2mObYl7z9JTmoGdV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns announcement funding cuts English lessons foreign nationals January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q2sz8aTU2mObYl7z9JTmoGdV",
+   "content": "[Nigel Farage] <p class=\"mw-empty-elt\"> </p> <p><b>Nigel Paul Farage</b> (born 3 April 1964) is a British politician who has been Leader of Reform UK and Member of Parliament for Clacton since 2024. He was the leader of the UK Independence Party (UKIP) from 2006 to 2009 and from 2010 to 2016, and a member of the European Parliament (MEP) for South East England from 1999 until the United Kingdom's withdrawal from the European Union (EU) in 2020. </p><p>Farage was a member of the Conservative Party for 14 years, from 1978 to 1992. He has been a prominent Eurosceptic since the early 1990s and was first elected to the European Parliament in 1999. In 2004, he became the president of Europe of Freedom and Direct Democracy. Farage was elected UKIP's leader in 2006 and led the party at the 2009 European Parliament election, when it won the second-most votes in the UK. He stood unsuccessfully in Buckingham at the 2010 general election before returning as UKIP's leader later that year. At the 2014 European Parliament election, UKIP won the most seats in the UK, pressuring David Cameron to call the 2016 EU membership referendum. At the 2015 general election, Farage was an unsuccessful candidate in South Thanet. </p><p>After the referendum, Farage resigned as UKIP's leader. In 2018, he co-founded the Brexit Party (renamed Reform UK in 2021), which drew support from those frustrated by the delayed implementation of Brexit by the Conservative government, and won the most votes at the 2019 European Parliament election, becoming the largest single party in the parliament. At the 2024 general election Farage again became Reform UK's leader, and won in Clacton. In July 2026, whilst under investigation by the Parliamentary Commissioner for Standards over undeclared gifts including one of £5 million, Farage announced his resignation as MP for Clacton, triggering a by-election which he won with 63.3% of the vote. </p> <h2 data-mw-anchor=\"Early_life_and_education\" data-mw-wikitext=\"\">Ear"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WlddCsZhJmOEx2b9T92mERsR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns funding cuts foreign nationals English lessons January 2026 announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WlddCsZhJmOEx2b9T92mERsR",
+   "content": "[Nigel Farage] <p class=\"mw-empty-elt\"> </p> <p><b>Nigel Paul Farage</b> (born 3 April 1964) is a British politician who has been Leader of Reform UK and Member of Parliament for Clacton since 2024. He was the leader of the UK Independence Party (UKIP) from 2006 to 2009 and from 2010 to 2016, and a member of the European Parliament (MEP) for South East England from 1999 until the United Kingdom's withdrawal from the European Union (EU) in 2020. </p><p>Farage was a member of the Conservative Party for 14 years, from 1978 to 1992. He has been a prominent Eurosceptic since the early 1990s and was first elected to the European Parliament in 1999. In 2004, he became the president of Europe of Freedom and Direct Democracy. Farage was elected UKIP's leader in 2006 and led the party at the 2009 European Parliament election, when it won the second-most votes in the UK. He stood unsuccessfully in Buckingham at the 2010 general election before returning as UKIP's leader later that year. At the 2014 European Parliament election, UKIP won the most seats in the UK, pressuring David Cameron to call the 2016 EU membership referendum. At the 2015 general election, Farage was an unsuccessful candidate in South Thanet. </p><p>After the referendum, Farage resigned as UKIP's leader. In 2018, he co-founded the Brexit Party (renamed Reform UK in 2021), which drew support from those frustrated by the delayed implementation of Brexit by the Conservative government, and won the most votes at the 2019 European Parliament election, becoming the largest single party in the parliament. At the 2024 general election Farage again became Reform UK's leader, and won in Clacton. In July 2026, whilst under investigation by the Parliamentary Commissioner for Standards over undeclared gifts including one of £5 million, Farage announced his resignation as MP for Clacton, triggering a by-election which he won with 63.3% of the vote. </p> <h2 data-mw-anchor=\"Early_life_and_education\" data-mw-wikitext=\"\">Ear"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JjEsqGJfx6V03YpzX88mmuDq",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Andrea Jenkyns cut funding foreign nationals English language lessons January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JjEsqGJfx6V03YpzX88mmuDq",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3qrUJNxhSkKORFa6jBCUwV6p",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"January 2026 Andrea Jenkyns funding cut English lessons announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3qrUJNxhSkKORFa6jBCUwV6p",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, у меня нет информации о дате объявления Андреа Генкинс о сокращении финансирования на уроки английского языка для иностранцев в 2026 году. Необходимо больше данных. \n\nFINAL: неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

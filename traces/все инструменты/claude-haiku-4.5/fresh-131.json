@@ -1,0 +1,117 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "When did Asha Sharma announce the major reset of the Xbox division at Microsoft?",
+  "answer": "June 2026",
+  "evidence": "Following Asha Sharma's announcement of a major reset of the Xbox division at Microsoft in June 2026, including pulling back towards console exclusivity and improving the financial performance for both Xbox and Xbox Game Studios, Microsoft announced it was laying off 1,600 Xbox employees now and another 1,600 over the next year. ",
+  "url": "https://en.wikipedia.org/wiki/2026_in_video_games"
+ },
+ "answer": "I apologize, but I'm encountering rate limiting issues with the search service at the moment. However, based on the initial search result I found, Asha Sharma became CEO of Xbox on February 20, 2026. The specific date of when she announced a major reset of the Xbox division would likely have been shortly after she took over that position, but I cannot retrieve the exact announcement date due to the search limitations I'm currently experiencing.\n\nIf you need the precise date of the reset announcement, I'd recommend checking:\n- Official Microsoft press releases from early 2026\n- Xbox's official announcements\n- Major tech news outlets' coverage from February-March 2026\n\nI apologize that I couldn't provide the specific announcement date at this moment.",
+ "correct": false,
+ "cost": 0.01431300000000002,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "When did Asha Sharma announce the major reset of the Xbox division at Microsoft?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Asha Sharma and the Xbox division reset at Microsoft.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01SZBVCRVpRKZA6wfhJB68Up",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Asha Sharma Xbox division reset Microsoft\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SZBVCRVpRKZA6wfhJB68Up",
+   "content": "[Asha Sharma] <p class=\"mw-empty-elt\"> </p> <p><b>Asha Sharma</b> is an American business executive who serves as executive vice president (EVP) and chief executive officer (CEO) of Xbox. She succeeded Phil Spencer on February 20, 2026. Previously, Sharma served as Microsoft's corporate vice president and head of product for its AI platform from 2024 to 2025. She also worked as president of its CoreAI product organization from 2025 to 2026. </p> <h2 data-mw-anchor=\"Early_life\" data-mw-wikitext=\"\">Early life</h2> <p>Sharma was born in Racine, Wisconsin. She is of Indian Punjabi descent. Her parents had immigrated to the United States from New Zealand and settled in Racine near relatives. Her parents were divorced, and her mother worked at a department store. As a teenager, Sharma worked on a golf course. Her father worked for a family-owned metal fabrication business while completing an engineering degree, and Sharma has credited his approach to work with influencing her own attitude toward school, employment, and extracurricular activities. </p><p>During her teenage years, Sharma considered pursuing medicine and envisioned combining it with her interest in sports by working as a physician for the Green Bay Packers. She subsequently attended the University of Minnesota, where she studied business. While in college, she completed several internships, participated in academic research projects in Hungary and Poland, and helped establish a nonprofit organization that raised around $500,000. </p><p>She earned a Bachelor of Science degree in business from the Carlson School of Management at the University of Minnesota, graduating in 2011. While she was a student, Sharma launched and led a center for at-risk teenagers called the A-list in Brooklyn Park, which closed soon after her departure. </p> <h2 data-mw-anchor=\"Career\" data-mw-wikitext=\"\">Career</h2> <h3 data-mw-anchor=\"Microsoft_and_Porch\" data-mw-wikitext=\"\">Microsoft and Porch</h3> <p>Sharma began her career at S.C"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found that Asha Sharma became CEO of Xbox on February 20, 2026. Now let me search for more specific information about when she announced the major reset of the Xbox division.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014u3KuVY7AFZz18hsrbs2se",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Asha Sharma Xbox major reset announcement 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014u3KuVY7AFZz18hsrbs2se",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try another search:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Tr9xm1qK1McFLdnrcuxcgR",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Xbox division reset 2026 announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Tr9xm1qK1McFLdnrcuxcgR",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018Z1ZDj7jqLxHLtTJ3FykaT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Xbox reset 2026 Microsoft\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018Z1ZDj7jqLxHLtTJ3FykaT",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": "I apologize, but I'm encountering rate limiting issues with the search service at the moment. However, based on the initial search result I found, Asha Sharma became CEO of Xbox on February 20, 2026. The specific date of when she announced a major reset of the Xbox division would likely have been shortly after she took over that position, but I cannot retrieve the exact announcement date due to the search limitations I'm currently experiencing.\n\nIf you need the precise date of the reset announcement, I'd recommend checking:\n- Official Microsoft press releases from early 2026\n- Xbox's official announcements\n- Major tech news outlets' coverage from February-March 2026\n\nI apologize that I couldn't provide the specific announcement date at this moment.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

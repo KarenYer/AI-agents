@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-145",
+  "source": "fresh",
+  "question": "On 24 July, 2026, which country did the United States impose a 12.5 % tariff on, citing alleged forced labour in the supply chain?",
+  "answer": "Brazil.",
+  "evidence": "24 July – The United States imposes a 12.5% tariff on Brazil, citing the presence of alleged forced labour in the supply chain. The United States Government also imposes tariffs ranging between 10 and 12.5% on 59 other countries.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Brazil"
+ },
+ "answer": "I'll search for the relevant information about the United States imposing tariffs on July 24, 2026. Please hold on a moment. \n\nweb_search(\"United States 12.5% tariff July 24 2026 forced labour\")",
+ "correct": false,
+ "cost": 4.799999999999249e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On 24 July, 2026, which country did the United States impose a 12.5 % tariff on, citing alleged forced labour in the supply chain?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for the relevant information about the United States imposing tariffs on July 24, 2026. Please hold on a moment. \n\nweb_search(\"United States 12.5% tariff July 24 2026 forced labour\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

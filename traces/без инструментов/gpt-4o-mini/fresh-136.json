@@ -1,0 +1,29 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?",
+  "answer": "$100,000.",
+  "evidence": "Beginning in January 2026, starting with UFC 324, the UFC increased its post‑fight bonus structure, raising Performance of the Night and Fight of the Night awards from $50,000 to $100,000, and introducing additional $25,000 bonuses for any knockout or submission not selected among the standard four post‑fight awards.",
+  "url": "https://en.wikipedia.org/wiki/2026_in_UFC?ysclid=mwff1wivyt646964231"
+ },
+ "answer": "I will look up the updated amounts for the Performance of the Night and Fight of the Night awards from January 2026. Please hold on. \n\n(web_search \"January 2026 UFC Performance of the Night Fight of the Night bonus amounts\")",
+ "correct": false,
+ "cost": 4.724999999999868e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "What were the new amounts for the Performance of the Night and Fight of the Night awards after the January 2026 UFC bonus update?"
+  },
+  {
+   "role": "assistant",
+   "content": "I will look up the updated amounts for the Performance of the Night and Fight of the Night awards from January 2026. Please hold on. \n\n(web_search \"January 2026 UFC Performance of the Night Fight of the Night bonus amounts\")",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
