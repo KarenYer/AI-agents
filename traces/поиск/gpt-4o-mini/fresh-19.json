@@ -1,0 +1,16 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "What is the runtime of the Optimus Prime: Awakening short that premiered on September 17, 2026?",
+  "answer": "12-minute short",
+  "evidence": "Optimus Prime: Awakening, a new 12-minute short, was released in theaters with the 40th anniversary re-release of The Transformers: The Movie.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

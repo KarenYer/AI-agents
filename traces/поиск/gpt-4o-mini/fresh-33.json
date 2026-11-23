@@ -1,0 +1,16 @@
+{
+ "task": {
+  "id": "fresh-33",
+  "source": "fresh",
+  "question": "How many games did the Evansville Thunderbolts win to secure the President's Cup title in May 2026?",
+  "answer": "NOT_FOUND",
+  "evidence": "May 9: The Evansville Thunderbolts defeat the Peoria Rivermen three games to two to win their second consecutive and second overall President's Cup title.",
+  "page": "2026 in ice hockey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_ice_hockey",
+  "agent_ok": false
+ },
+ "answer": "ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

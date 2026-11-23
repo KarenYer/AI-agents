@@ -1,0 +1,75 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "On 16 August 2026, where did a wildfire kill two people in Greece?",
+  "answer": "Salamis Island.",
+  "evidence": "16 August – 2026 Greece wildfires: Two people are killed in a wildfire in Salamis Island",
+  "page": "2026 in Greece",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Greece",
+  "agent_ok": false
+ },
+ "answer": "On 16 August 2026, a wildfire broke out on Salamis Island in Greece, resulting in the deaths of two people. \n\nFINAL: Salamis Island",
+ "correct": true,
+ "cost": 0.0002223000000000086,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You answer questions about events of 2026. Never answer from memory: use web_search to find the right article, then page_find to look inside long articles such as '2026 in <country or field>' for the specific fact. Do not repeat the same call. For numerical tasks in FINAL, only a number is required. When done, write the last line as FINAL: <short answer>."
+  },
+  {
+   "role": "user",
+   "content": "On 16 August 2026, where did a wildfire kill two people in Greece?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LQaqStVZGcxqR7FDeiH1fljY",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"August 16 2026 wildfire Greece\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LQaqStVZGcxqR7FDeiH1fljY",
+   "content": "НЕ удалось вызвать инструмент web_search: Википедия ответила 429"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xgysWvuUlM66QUWg45u68yjA",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"wildfire Greece August 16 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xgysWvuUlM66QUWg45u68yjA",
+   "content": "[2026 Greece wildfires] <p class=\"mw-empty-elt\"> </p> <p>Since July 2026, there have been multiple wildfires in Greece, resulting in several casualties and damage to properties. </p> <h2 data-mw-anchor=\"Background\" data-mw-wikitext=\"\">Background</h2> <p>The wildfires occurred during the 2026 European heatwaves. On 5 July, there were dozens of wildfires ongoing across Greece. </p> <h2 data-mw-anchor=\"Attica\" data-mw-wikitext=\"\">Attica</h2> <p>On the evening of 31 July, a wildfire broke out in the Aigaleo region, at the Poíkilo mountain. While the fire did not last for a long time, it led to the evacuation of the area due to its proximity to industrial zones. The Dafni psychiatric hospital was also nearly evacuated, although the fire changed direction, resulting in the evacuation being cancelled. </p><p>On 2 August, two people were killed when two firefighting helicopters crashed near Athens. This happened amid wildfires in places such as Porto Germeno, Psatha, Fokida, Megara and Kefalonia. </p><p>On 16 August, two wildfires broke out in Salamis Island, killing two people. </p> <h2 data-mw-anchor=\"Crete\" data-mw-wikitext=\"\">Crete</h2> <p>On 30 July 2026, thousands of people were evacuated in Crete due to wildfires. The fires destroyed large areas of farmland, olive groves and residential areas. </p><p>Three firefighters were reported killed. </p> <h2 data-mw-anchor=\"Paros\" data-mw-wikitext=\"\">Paros</h2> <p>Wildfires were reported in Paros. </p> <h2 data-mw-anchor=\"Thessaloniki\" data-mw-wikitext=\"\">Thessaloniki</h2> <p>On 30 June 2026, a wildfire broke out near the Liti area of Thessaloniki, killing two people and forcing evacuations. </p><p>On 4 July 2026, a wildfire broke out in the suburb of Anthoupoli and forced evacuations across three Thessaloniki suburbs. The wildfire damaged factories in the Filothei area, and forced the evacuation of a hospital named Agios Panteleimonas. The wildfire was extinguished on the morning of 5 July. </p> <h2 data-mw-anchor=\"See_also\""
+  },
+  {
+   "role": "assistant",
+   "content": "On 16 August 2026, a wildfire broke out on Salamis Island in Greece, resulting in the deaths of two people. \n\nFINAL: Salamis Island",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
