@@ -23,6 +23,8 @@
 ![Итоговая таблица ](img/final_table.png)
 ![Money Chart](img/money_chart.png)
 ![Таблица отказов](img/failure_table.png)
+![Таблица токенов](img/memory_tokens.png)
 ### Разбор провалов
 Пример 1. Модель ответила на вопрос ('The sources do not contain information about the temperature'), хотя ей нужно было отклонить вопрос, которого нет в корпусе. Надо менять промпт и выкрутить параметр температуры до нуля
 Пример 2. Модель ответила по сути верно на вопрос, кусок найден верно, надо менять проверку, которая нормализует ответ, выкидывая окончания. Правильный ответ : 'A crane collapses onto a passenger train', ответ модели: 'A crane collapse onto a passenger train caused the Sikhio tr'
+### Вывод
